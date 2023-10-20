@@ -3,19 +3,19 @@
 <suite name="suiteForJenkins" verbose="10" parallel="methods" thread-count="4">
 
     <listeners>
-        <listener class-name="Base.BaseListener"/>
+        <listener class-name="base.BaseListener"/>
     </listeners>
 
     <test name="success">
         <classes>
-            <class name="AmazonTests.SuccessLoginTest"/>
+            <class name="amazonTests.SuccessLoginTest"/>
         </classes>
     </test>
 
     <test name="fail">
         <classes>
-            <class name="AmazonTests.InvalidEmailLoginTest"/>
-            <class name="AmazonTests.InvalidPasswordLoginTest"/>
+            <class name="amazonTests.InvalidEmailLoginTest"/>
+            <class name="amazonTests.InvalidPasswordLoginTest"/>
         </classes>
     </test>
 

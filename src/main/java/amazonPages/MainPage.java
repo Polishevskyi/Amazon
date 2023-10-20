@@ -1,4 +1,4 @@
-package AmazonPages;
+package amazonPages;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;

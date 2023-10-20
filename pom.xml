@@ -38,7 +38,7 @@
                     </argLine>
                     <suiteXmlFiles>
                         <suiteXmlFile>${basedir}${TEST_SUITE}.xml</suiteXmlFile>
-<!--                        <suiteXmlFile>${basedir}/src/test/java/AmazonTests/suiteForJenkins.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>${basedir}/src/test/java/amazonTests/suiteForJenkins.xml</suiteXmlFile>-->
                     </suiteXmlFiles>
                     <systemProperties>
                         <property>

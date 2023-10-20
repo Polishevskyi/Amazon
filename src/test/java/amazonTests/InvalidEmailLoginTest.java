@@ -1,7 +1,7 @@
-package AmazonTests;
+package amazonTests;
 
-import AmazonPages.MainPage;
-import Base.BaseTest;
+import amazonPages.MainPage;
+import base.BaseTest;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import org.testng.Assert;
