@@ -1,39 +1,47 @@
-# Project Amazon
+# Automated Testing with: 
+# Java, TestNG, Selenide, WebDriverManager, Allure, and Jenkins
 
-## Description
-This GitHub repository contains a Java Maven project for automated testing using Selenide, WebDriverManager, and Allure reporting. The project is integrated with Jenkins for continuous integration and automated test execution.
+## Introduction
 
-## Features
-- Automated web testing with Selenide.
-- Easy browser setup and management using WebDriverManager.
-- Detailed test reports and visualization with Allure.
-- Continuous integration and automated testing with Jenkins.
+Welcome to the GitHub repository for our automated testing project! This project will help you quickly set up automated tests for web applications using Java, TestNG, Selenide, WebDriverManager, Allure, and Jenkins. These technologies combine to provide a robust and scalable solution for automating your web testing processes.
+
+## Key Features
+
+- **Java:** The primary programming language for writing your test scripts.
+- **Maven:** Dependency management and build automation tool.
+- **TestNG:** A powerful testing framework for running and organizing test cases.
+- **Selenide:** A concise and expressive UI testing framework built on top of Selenium.
+- **WebDriverManager:** Simplifies web driver setup and management.
+- **Allure:** Generates detailed and visually appealing test reports for better analysis.
+- **Jenkins:** Integrates with Jenkins for continuous integration and automated test execution.
 
 ## Prerequisites
-Before running the tests, make sure you have the following prerequisites installed:
-- Java
+
+Before getting started, make sure you have the following tools and dependencies installed:
+
+- Java Development Kit (JDK)
 - Maven
+- TestNG
 - Selenide
 - WebDriverManager
 - Allure
-- Jenkins (for CI/CD)
+- Jenkins (if you plan to set up continuous integration)
 
-## Installation
+## Getting Started
 1. Clone this repository to your local machine.
-2. Make sure you have all the prerequisites installed.
-3. Configure your test environment and URLs in the appropriate configuration files.
-4. Run the tests using Maven: mvn clean test
-5. Generate Allure reports: allure generate allure-results --clean -o allure-report
-6. View the test reports in the `allure-report` directory.
+2. Configure your test environment and URLs in the appropriate configuration files.
+3. Run the tests using Maven: mvn clean test
+4. Generate Allure reports: allure generate allure-results --clean -o allure-report
+5. View the detailed test reports in the `allure-report` directory.
 
 ## Usage
-- Customize and expand the existing test suites to suit your project's needs.
-- Integrate this repository with your Jenkins server for automated test runs.
+- Customize and expand the existing test suites to fit your project's requirements.
+- Integrate this repository with Jenkins for automated test runs and continuous integration.
 
 ## Contributing
-Feel free to contribute to this project by opening issues or submitting pull requests. Your feedback and contributions are highly appreciated.
-  
+Contributions are welcome! Feel free to open issues, submit pull requests, or provide feedback to help improve this project.
+
 ## Contact
-If you have questions or need further assistance, please contact Serhii at s.polishevskyi@gmail.com
+If you have any questions or need assistance, please feel free to contact us.
 
 Happy testing! 🚀
